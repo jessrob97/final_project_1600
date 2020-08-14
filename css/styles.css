@@ -7,7 +7,9 @@ html {
     margin: 0;
 }
 
+/*******************************************************/
 /* Big hero and nav */
+/*******************************************************/
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/jeremy-bishop-B2Q7UC6QGLE-unsplash.jpg");
@@ -45,7 +47,9 @@ html {
     text-decoration: none;
 }
 
+/*******************************************************/
 /* Parks */
+/*******************************************************/
 
 #parks-section {
     padding: 78px;

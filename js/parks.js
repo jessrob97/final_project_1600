@@ -1,4 +1,5 @@
 // REQUIREMENT: export statement
+// REQUIREMENT: custom javascript object declaration
 export const parks = [{
     "contacts": {
       "phoneNumbers": [{

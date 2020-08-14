@@ -3,6 +3,10 @@ import {
     parks
 } from './parks.js'
 
+/*******************************************************/
+/* Global variables */
+/*******************************************************/
+
 // REQUIREMENT: variables scoped to global
 // REQUIREMENT: const variable
 const parkList = document.querySelector("#parks");
@@ -19,6 +23,10 @@ const sortedParks = parks
     .sort((a, b) => (a.name > b.name) ? 1 : -1);
 // REQUIREMENT: let variable
 let numberOfVisibleParks = 0;
+
+/*******************************************************/
+/* Functions */
+/*******************************************************/
 
 // REQUIREMENT: arrow function
 const appendCard = park => {
@@ -39,7 +47,8 @@ const appendCard = park => {
     li.appendChild(front);
 
     const name = document.createElement("h3");
-    name.textContent = park.name;
+    // REQUIREMENT: string manipulation
+    name.textContent = park.name.toUpperCase();
     front.appendChild(name);
 
     // Create and append back card
@@ -81,6 +90,10 @@ const loadMoreParks = () => {
 
     return;
 }
+
+/*******************************************************/
+/* Other code */
+/*******************************************************/
 
 loadMoreParks();
 
