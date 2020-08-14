@@ -7,6 +7,10 @@ html {
     margin: 0;
 }
 
+section {
+    padding: 78px;
+}
+
 /*******************************************************/
 /* Big hero and nav */
 /*******************************************************/
@@ -34,7 +38,6 @@ html {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    position: fixed;
     top: 0;
     left: 0px;
     width: 100%;
@@ -50,11 +53,6 @@ html {
 /*******************************************************/
 /* Parks */
 /*******************************************************/
-
-#parks-section {
-    padding: 78px;
-
-}
 
 #parks {
     display: flex;
@@ -112,4 +110,13 @@ html {
 
 .parkscard.is-flipped {
     transform: rotateY(180deg);
+}
+
+/*******************************************************/
+/* Parks */
+/*******************************************************/
+
+#map img {
+    height: 700px;
+    width: auto;
 }
